@@ -27,7 +27,6 @@ body, html {
 
 /* Header */
 header {
-    height: 40px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
 }
@@ -196,8 +195,9 @@ footer p {
     header {
         align-self: center;
         width: 45%;
+        height: 20px !important;
     }
-
+    
     .players-area {
         height: 95%;
         align-items: baseline;
@@ -210,5 +210,20 @@ footer p {
     .computer {
         height: 60%;
         width: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .players-area {
+        
+        justify-content: space-evenly;
+    }
+
+    .player {
+        width: 35%;
+    }
+    .computer {
+        width: 35%;
     }
 }
