@@ -71,6 +71,7 @@ header {
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
+    margin: 18px;
 }
 
 .btn--big::after{
@@ -156,6 +157,7 @@ header {
     height: 10%;
     border-radius: 30px;
     width: 80%;
+    margin-top: 3em;
 }
 
 .player-box {
