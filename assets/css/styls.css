@@ -24,3 +24,95 @@ body, html {
     height: 100%;
     object-fit: cover;
 }
+
+/* Buttons */
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+}
+
+.btn--big::after{
+    content: attr(data-type);
+    font-size: 1.2rem;
+    color: #000000;
+    position: relative;
+    left: 0.5em;
+    margin: -2em;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn--orange {
+    border-color: orange;
+    color: orange;
+}
+
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--gray {
+    margin-top: 25px;
+    background-color: #445361;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.btn--gray:active,
+.btn--gray:hover {
+    background-color: #0d1013;
+}
