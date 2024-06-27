@@ -1,3 +1,26 @@
-body {
-    background-color: aquamarine;
+/* Basic reset for margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Wrapper for the background image */
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure it's behind other content */
+}
+
+/* Ensures the image covers the whole background */
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
