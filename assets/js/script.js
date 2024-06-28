@@ -23,9 +23,31 @@ function startGame(playerWeapon) {
     computerImage.src = `assets/images/${weapons[computerWeapon]}.webp`;
     computerImage.alt = `weapons ${weapons[computerWeapon]}`;
 
-    console.log(computerWeapon);
-    console.log(playerWeapon);
-
+    let result = compareWeapons(weapons[playerWeapon], weapons[computerWeapon]);
+    
+    console.log(weapons[playerWeapon]);
+    console.log(weapons[computerWeapon]);
+    console.log(result);
 }
 
-// startGame(playerWeapon);
+function compareWeapons(playerWeapon, computerWeapon) {
+    if(playerWeapon === computerWeapon) {
+        return "It's a tie!";
+    } else if(
+        (playerWeapon === "Rock" && computerWeapon === "Lizard") ||
+        (playerWeapon === "Lizard" && computerWeapon === "Spock") ||
+        (playerWeapon === "Spock" && computerWeapon === "Scissors") ||
+        (playerWeapon === "Scissors" && computerWeapon === "Paper") ||
+        (playerWeapon === "Paper" && computerWeapon === "Rock") ||
+        (playerWeapon === "Rock" && computerWeapon === "Scissors") ||
+        (playerWeapon === "Scissors" && computerWeapon === "Lizard") ||
+        (playerWeapon === "Lizard" && computerWeapon === "Paper") ||
+        (playerWeapon === "Paper" && computerWeapon === "Spock") ||
+        (playerWeapon === "Spock" && computerWeapon === "Rock")
+    ) {
+        return "You win!";
+    } else {
+        return "Computer wins!";
+    }
+
+}
