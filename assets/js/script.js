@@ -25,9 +25,7 @@ function startGame(playerWeapon) {
 
     let result = compareWeapons(weapons[playerWeapon], weapons[computerWeapon]);
     
-    console.log(weapons[playerWeapon]);
-    console.log(weapons[computerWeapon]);
-    console.log(result);
+    updateScores(result);
 }
 
 function compareWeapons(playerWeapon, computerWeapon) {
@@ -51,3 +49,17 @@ function compareWeapons(playerWeapon, computerWeapon) {
     }
 
 }
+
+function updateScores(result) {
+    if(result === "You win!") {
+        playerScore.textContent = parseInt(playerScore.textContent) + 1;
+    } else if(result === "Computer wins!") {
+        computerScore.textContent = parseInt(computerScore.textContent) + 1;
+    }
+
+    resultBox.innerHTML = `${result}`;
+   
+    // console.log(result);
+}
+
+// updateScores(result);
