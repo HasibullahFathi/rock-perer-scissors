@@ -241,6 +241,14 @@ footer p {
         width: 230px;
     }
 
+    .main {
+        top: 2%;
+    }
+
+    .result {
+        margin-top: 1em;
+    }
+
 }
 
 @media (min-width: 1024px) {
