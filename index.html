@@ -20,29 +20,35 @@
     <section class="content main">
 
         <div class="btns">
-            <button data-type="rock" aria-label="Rock" class="btn btn--big btn--green">
+            <button data-type="0" aria-label="Rock" class="btn btn--big btn--green">
                 <i class="fa-solid fa-hand-fist"></i>
             </button>
-            <button data-type="peper" aria-label="Pare" class="btn btn--big btn--blue">
+            <button data-type="1" aria-label="Pare" class="btn btn--big btn--blue">
                 <i class="fa-solid fa-hand"></i>
             </button>
-            <button data-type="Scissors" aria-label="Scessors" class="btn btn--big btn--red">
+            <button data-type="2" aria-label="Scessors" class="btn btn--big btn--red">
                 <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+            <button data-weapon="3" aria-label="Lizard" class="btn btn--big btn--orange">
+                <i class="fa-solid fa-hand-lizard"></i>
+            </button>
+            <button data-weapon="4" aria-label="Spock" class="btn btn--big btn--gray">
+                <i class="fa-solid fa-hand-spock"></i>
             </button>
         </div>
 
         <div class="result">
-            <h5>Result: <span>You Winn this Game!</span></h5>
+            <h5 id="result">Start the Game!</h5>
         </div>
 
         <div class="players-area">
             <div class="player player-box">
-                <h5>You Choosed: <span>Rock</span></h5>
+                <h5>You: <span id="player-score">0</span></h5>
                 <img src="assets/images/player-img.webp" alt="player image">
             </div>
 
             <div class="computer player-box">
-                <h5>Computer Choosed: <span>Scessors</span></h5>
+                <h5>Computer: <span id="computer-score">0</span></h5>
                 <img src="assets/images/player-img.webp" alt="Computer image">
             </div>
         </div>
@@ -55,5 +61,6 @@
 
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
