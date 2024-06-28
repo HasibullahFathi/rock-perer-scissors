@@ -4,7 +4,6 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: "Raleway", sans-serif;
-    /* min-height: 100vh; */
     align-items: center;
 }
 
@@ -32,7 +31,6 @@ header {
 
 /* Content area */
 .content {
-    /* flex: 1; */
     position: relative;
     z-index: 1;
     padding: 5px;
@@ -41,7 +39,6 @@ header {
 }
 
 .main{
-    /* flex: 3; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,13 +46,12 @@ header {
 
 /* Buttons */
 .btn {
-    width: 220px;
-    height: 60px;
+    width: 154px; /* 220px * 0.7 */
+    height: 42px; /* 60px * 0.7 */
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: white;
-    
 }
 
 .btns {
@@ -67,20 +63,20 @@ header {
 }
 
 .btn--big {
-    padding-top: 10px;
+    padding-top: 7px; /* 10px * 0.7 */
     border-radius: 50%;
     background-color: white;
-    border: 10px solid;
-    width: 100px;
-    height: 100px;
-    font-size: 3.2rem;
+    border: 7px solid; /* 10px * 0.7 */
+    width: 70px; /* 100px * 0.7 */
+    height: 70px; /* 100px * 0.7 */
+    font-size: 2.24rem; /* 3.2rem * 0.7 */
     transition: all 0.5s;
-    margin: 10px;
+    margin: 7px; /* 10px * 0.7 */
 }
 
-.btn--big::after{
+.btn--big::after {
     content: attr(data-type);
-    font-size: 1rem;
+    font-size: 0.7rem; /* 1rem * 0.7 */
     color: #445361;
     position: relative;
 }
@@ -130,7 +126,7 @@ header {
 }
 
 .btn--gray {
-    margin-top: 25px;
+    margin-top: 17.5px; /* 25px * 0.7 */
     background-color: #445361;
     border: 1px transparent;
     border-radius: 20px;
@@ -155,12 +151,10 @@ header {
 
 .result {
     color: #000000;
-    margin: 10px;
+    margin: 10px 0 2px 0;
     background-color: #ffffffe0;
-    height: 10%;
     border-radius: 30px;
     width: 80%;
-    margin-top: 1em;
 }
 
 .player-box {
@@ -257,8 +251,4 @@ footer p {
     p {
         font-size: 1.5rem;
     }
-
-    /* footer {
-        width: 100%;
-    } */
 }
