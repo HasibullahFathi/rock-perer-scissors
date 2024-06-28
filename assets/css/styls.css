@@ -126,15 +126,14 @@ header {
 }
 
 .btn--gray {
-    margin-top: 17.5px; /* 25px * 0.7 */
-    background-color: #445361;
-    border: 1px transparent;
-    border-radius: 20px;
+    border-color: gray;
+    color: gray;
 }
 
 .btn--gray:active,
 .btn--gray:hover {
     background-color: #0d1013;
+    color: white;
 }
 
 
@@ -169,6 +168,11 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0 0 10px 10px;
+}
+
+#player-score, #computer-score {
+    color: green;
 }
 
 /* Sticky footer styles */
