@@ -26,6 +26,8 @@ function startGame(playerWeapon) {
     let result = compareWeapons(weapons[playerWeapon], weapons[computerWeapon]);
     
     updateScores(result);
+
+    console.log(`Player chose ${playerWeapon}, Computer chose ${computerWeapon}`);
 }
 
 function compareWeapons(playerWeapon, computerWeapon) {
