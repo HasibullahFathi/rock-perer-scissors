@@ -1,6 +1,8 @@
 # Rock, Paper, Scissors, Lizard, Spock
 "Rock, Paper, Scissors, Lizard, Spock" is an expanded version of the classic game Rock, Paper, Scissors. This variation, popularized by the TV show "The Big Bang Theory," introduces two additional options, Lizard and Spock, which create a more complex and engaging gameplay. Each choice beats two of the other choices, making the game more strategic and fun. Perfect for challenging friends or the computer, it adds a new twist to a timeless game.
 
+![Responsice Mockup](/media/main-img.png)
+
 ## Purpose:
 The Game "Rock, Paper, Scissors, Lizard, Spock" serves as an entertaining and strategic variation of a classic game, catering to a wide range of players seeking both casual enjoyment and competitive engagement.
 
@@ -18,7 +20,11 @@ The Game "Rock, Paper, Scissors, Lizard, Spock" serves as an entertaining and st
 - Spock vaporizes Rock
 - Rock crushes Scissors
 
-main photo here 
+
+## Responsiveness
+this page is designed responsive.
+
+![Responsice Mockup](/media/responsive-img.png)
 
 ## Existing Features
 
@@ -26,36 +32,32 @@ main photo here
 
 By clicking buttons, players choose weapons against the computer, which the computer chooses randomly generated choice.
 
-buttons photo here
+![Responsice Mockup](/media/buttons-img.png)
 
 ### Result
 
 This area displays the outcome of the game, determined by comparing the chosen weapons of both players.
 
-result photo here
+![Responsice Mockup](/media/resul-img.png)
 
 ### score and photo section
 
 The score section tracks the scores of both the player and computer. Below the score, the corresponding photo of the selected weapon by both players is shown.
 
-score photo here
+![Responsice Mockup](/media/score-img.png)
 
 ### Footer
 
 The footer contains information about the game rules.
 
+![Responsice Mockup](/media/footer-img.png)
+
 ## Testing
 
-- All links were tested and confirmed to be working properly.
 - The website was tested in browsers like Chrome and Safari.
-- Texts in each section and on all pages were reviewed to ensure they are readable and understandable.
-- Both forms were tested for proper functionality and validation.
-- Two bugs that appeared while checking on different devices, like iPhones, were resolved:
-    - The dropdown menu had insufficient contrast.
-    - The hero text was overlapping with the header.
-- Lighthouse optimization was performed to improve Largest Contentful Paint by adding a preload link tag in the head of the page.
+- Texts in all parts were reviewed to ensure they are readable and understandable.
 
-    ![Responsice Mockup](/media/lighthouse-report.png)
+    ![Responsice Mockup](/media/lighthouse-img.png)
 
 ### Validator Testing 
 
@@ -76,13 +78,13 @@ The footer contains information about the game rules.
     - From the source section drop-down menu, select the Mian and /root.
     - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     - Generates a link which is the URL of our page.
-live link of GetFit page: 
+live link of GetFit page: https://hasibullahfathi.github.io/rock-perer-scissors/
 
 ## Credits 
 
 ### Content 
 
-- Footers, hero text, and the setup of the favicon were taken from [Love Maths](https://code-institute-org.github.io/love-maths/) project with a bit of modification.
+- Button used in page were taken from [Love Maths](https://code-institute-org.github.io/love-maths/) project with a bit of modification.
 - Icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
