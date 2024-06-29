@@ -189,7 +189,7 @@ header {
     color: green;
 }
 
-/* Sticky footer styles */
+/* footer styles */
 footer {
     bottom: 0;
     width: 100%;
@@ -201,13 +201,14 @@ footer {
     position: absolute;
 }
 
-/* Ensures footer text doesn't get cut off */
 footer p {
     margin: 10px;
-    line-height: 25px;
+    line-height: 15px;
+    font-size: xx-small;
+    text-align: justify;
 }
 
-
+/* media queries */
 @media (min-width: 768px) {
 
     header {
@@ -229,6 +230,13 @@ footer p {
     .player-box {
         height: 234px;
         width: 300px;
+    }
+
+    footer p {
+        margin: 20px;
+        line-height: 20px;
+        font-size: medium;
+        text-align: center;
     }
 
 }
