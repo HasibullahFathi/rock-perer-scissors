@@ -8,8 +8,8 @@ const resultBox = document.getElementById('result');
 const weapons = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
 
 // add eventListener to the buttons send user's weapon to the function start game 
-for(let button of buttons) {
-    button.addEventListener("click", function() {
+for (let button of buttons) {
+    button.addEventListener("click", function () {
         let playerWeapon = this.getAttribute("data-weapon");
 
         startGame(playerWeapon);
@@ -18,7 +18,7 @@ for(let button of buttons) {
 
 /** function start game choose computer weapons rundomly and set for both players photo according to thier weapons */
 function startGame(playerWeapon) {
-    
+
     playerImage.src = `assets/images/${weapons[playerWeapon]}.webp`;
     playerImage.alt = `weapons ${playerWeapon}`;
 
@@ -27,7 +27,7 @@ function startGame(playerWeapon) {
     computerImage.alt = `weapons ${weapons[computerWeapon]}`;
 
     let result = compareWeapons(weapons[playerWeapon], weapons[computerWeapon]);
-    
+
     updateScores(result);
 }
 
@@ -55,12 +55,11 @@ function compareWeapons(playerWeapon, computerWeapon) {
 
 /** This function updates the score and set the result */
 function updateScores(result) {
-    if(result === "You win!") {
+    if (result === "You win!") {
         playerScore.textContent = parseInt(playerScore.textContent) + 1;
-    } else if(result === "Computer wins!") {
+    } else if (result === "Computer wins!") {
         computerScore.textContent = parseInt(computerScore.textContent) + 1;
     }
 
     resultBox.innerHTML = `${result}`;
 }
-

@@ -1,5 +1,6 @@
 /* Basic reset for margin and padding */
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -13,7 +14,8 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Ensure it's behind other content */
+    z-index: -1;
+    /* Ensure it's behind other content */
 }
 
 /* Ensures the image covers the whole background */
@@ -38,7 +40,7 @@ header {
     color: rgb(255, 255, 255);
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,20 +65,20 @@ header {
 }
 
 .btn--big {
-    padding-top: 7px; 
+    padding-top: 7px;
     border-radius: 50%;
     background-color: white;
-    border: 7px solid; 
-    width: 70px; 
-    height: 70px; 
-    font-size: 2.24rem; 
+    border: 7px solid;
+    width: 70px;
+    height: 70px;
+    font-size: 2.24rem;
     transition: all 0.5s;
-    margin: 7px; 
+    margin: 7px;
 }
 
 .btn--big::after {
     content: attr(data-type);
-    font-size: 0.7rem; 
+    font-size: 0.7rem;
     color: #445361;
     position: relative;
 }
@@ -182,7 +184,8 @@ header {
     margin: -4px;
 }
 
-#player-score, #computer-score {
+#player-score,
+#computer-score {
     color: green;
 }
 
@@ -219,7 +222,7 @@ footer p {
     }
 
     .players-area {
-        
+
         justify-content: space-evenly;
     }
 
