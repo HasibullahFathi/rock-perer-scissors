@@ -22,21 +22,22 @@ The Game "Rock, Paper, Scissors, Lizard, Spock" serves as an entertaining and st
 
 
 ## Responsiveness
-this page is designed responsive.
+This page is designed to be responsive, displaying its content perfectly on computer screens, tablets, and mobile devices.
 
+Screen shot of a mobile device screen.
 ![Responsice Mockup](/media/responsive-img.png)
 
 ## Existing Features
 
 ### Buttons
 
-By clicking buttons, players choose weapons against the computer, which the computer chooses randomly generated choice.
+By clicking buttons, players choose weapons against the computer, which the computer chooses randomly generated choice against the player.
 
 ![Responsice Mockup](/media/buttons-img.png)
 
 ### Result
 
-This area displays the outcome of the game, determined by comparing the chosen weapons of both players.
+This area displays the outcome of the game, determined by comparing the chosen weapons of both players. the winner, loser and tie are determined acording the game rules.
 
 ![Responsice Mockup](/media/resul-img.png)
 
@@ -54,8 +55,9 @@ The footer contains information about the game rules.
 
 ## Testing
 
-- The website was tested in browsers like Chrome and Safari.
+- The website was tested in browsers like Chrome and Safari, all content are displayed without any problem in all screen sizes.
 - Texts in all parts were reviewed to ensure they are readable and understandable.
+ Report of Lighthouse.
 
     ![Responsice Mockup](/media/lighthouse-img.png)
 
