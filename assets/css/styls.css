@@ -37,7 +37,7 @@ header {
 /* Content area */
 .content {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     padding: 5px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -207,7 +207,7 @@ footer {
 }
 
 footer p {
-    margin: 10px;
+    margin: 5px;
     line-height: 15px;
     font-size: xx-small;
     text-align: justify;
