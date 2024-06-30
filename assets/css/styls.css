@@ -18,7 +18,6 @@ html {
     height: 100%;
     overflow: hidden;
     z-index: -1;
-    /* Ensure it's behind other content */
 }
 
 /* Ensures the image covers the whole background */
@@ -50,15 +49,6 @@ header {
 }
 
 /* Buttons */
-.btn {
-    width: 154px;
-    height: 42px;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-}
-
 .btns {
     margin-bottom: 5px;
 }

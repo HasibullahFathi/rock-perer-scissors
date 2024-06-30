@@ -24,8 +24,8 @@ The Game "Rock, Paper, Scissors, Lizard, Spock" serves as an entertaining and st
 ## Responsiveness
 This page is designed to be responsive, displaying its content perfectly on computer screens, tablets, and mobile devices.
 
-Screen shot of a mobile device screen.
-![Responsice Mockup](/media/responsive-img.png)
+- Screen shot of a mobile device screen.
+    ![Responsice Mockup](/media/responsive-img.png)
 
 ## Existing Features
 
