@@ -77,7 +77,7 @@ The footer contains information about the game rules.
 
 ### Unfixed Bugs
 
-- some text
+- Fixed a bug by placing all content inside a wrapper div and styling it, ensuring that on small screens the background image is no longer smaller than the screen.
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -93,13 +93,13 @@ live link of Rock, Paper, Scissors, Lizard, Spock page: https://hasibullahfathi.
 ### Content 
 
 - Button used in page were taken from [Love Maths](https://code-institute-org.github.io/love-maths/) project with a bit of modification.
-- Icons used on the website were taken from [Font Awesome](https://fontawesome.com/) and [Flaticon](https://www.flaticon.com/)
+- Icons used on the website were taken from [Font Awesome](https://fontawesome.com/).
 
 
 ### Media
 
 - Photos have been resized and their format changed using the [Tinypng](https://tinypng.com/) website.
-- The photos used on the players photos are from This Open Source site.
+- The photos used on the players photos are from [Flaticon](https://www.flaticon.com/).
 - page favcion and background images were designed by my self.
 
 
