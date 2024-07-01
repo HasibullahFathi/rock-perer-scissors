@@ -31,13 +31,14 @@ This page is designed to be responsive, displaying its content perfectly on comp
 
 ### Buttons
 
-By clicking buttons, players choose weapons against the computer, which the computer chooses randomly generated choice against the player.
+- By clicking buttons, players choose weapons against the computer.
+- The computer chooses randomly generated choice against the player.
 
 ![Responsice Mockup](/media/buttons-img.png)
 
 ### Result
 
-This area displays the outcome of the game, determined by comparing the chosen weapons of both players. the winner, loser and tie are determined acording the game rules.
+This area displays the outcome of the game, determined by comparing the chosen weapons of both players. the winner, loser and tie are determined acording to the game rules.
 
 ![Responsice Mockup](/media/resul-img.png)
 
@@ -57,18 +58,22 @@ The footer contains information about the game rules.
 
 - The website was tested in browsers like Chrome and Safari, all content are displayed without any problem in all screen sizes.
 - Texts in all parts were reviewed to ensure they are readable and understandable.
- Report of Lighthouse.
+<br> Report of the Lighthouse.
 
     ![Responsice Mockup](/media/lighthouse-img.png)
 
 ### Validator Testing 
 
 - HTML
-    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
+    - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhasibullahfathi.github.io%2Frock-perer-scissors%2F)
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhasibullahfathi.github.io%2Frock-perer-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - JS
     - No errors were found when passing through the official [(JSHint) validator](https://jshint.com/)
+        - There are 4 functions in this file.
+        - Function with the largest signature take 2 arguments, while the median is 1.
+        - Largest function has 7 statements in it, while the median is 4.
+        - The most complex function has a cyclomatic complexity value of 22 while the median is 2.
 
 ### Unfixed Bugs
 
@@ -77,10 +82,11 @@ The footer contains information about the game rules.
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository, navigate to the Settings tab.
-    - From the source section drop-down menu, select the Mian and /root.
+    - Select the Pages tab.
+    - From the source section drop-down menu, select the main and /root.
     - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     - Generates a link which is the URL of our page.
-live link of GetFit page: https://hasibullahfathi.github.io/rock-perer-scissors/
+live link of Rock, Paper, Scissors, Lizard, Spock page: https://hasibullahfathi.github.io/rock-perer-scissors/
 
 ## Credits 
 
@@ -93,6 +99,7 @@ live link of GetFit page: https://hasibullahfathi.github.io/rock-perer-scissors/
 
 - Photos have been resized and their format changed using the [Tinypng](https://tinypng.com/) website.
 - The photos used on the players photos are from This Open Source site.
+- page favcion and background images were designed by my self.
 
 
 
