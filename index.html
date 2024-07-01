@@ -17,59 +17,59 @@
 </head>
 
 <body>
-    <div class="background-image">
-        <img src="assets/images/bg-img.webp" alt="background-image">
+    <!-- wrapper -->
+    <div class="background-image">    
+        <!-- Header  -->
+        <header class="content">
+            <h3>Rock, Paper, Scissors, Lizard, Spock</h3>
+            <p>Choose your weapon!</p>
+        </header>
+
+        <section class="content main">
+            <!-- Button used in page were taken from Love Maths project with a bit of modification. -->
+            <div class="btns">
+                <button data-weapon="0" aria-label="Rock" class="btn btn--big btn--green">
+                    <i class="fa-solid fa-hand-fist"></i>
+                </button>
+                <button data-weapon="1" aria-label="Papre" class="btn btn--big btn--blue">
+                    <i class="fa-solid fa-hand"></i>
+                </button>
+                <button data-weapon="2" aria-label="Scessors" class="btn btn--big btn--red">
+                    <i class="fa-solid fa-hand-scissors"></i>
+                </button>
+                <button data-weapon="3" aria-label="Lizard" class="btn btn--big btn--orange">
+                    <i class="fa-solid fa-hand-lizard"></i>
+                </button>
+                <button data-weapon="4" aria-label="Spock" class="btn btn--big btn--gray">
+                    <i class="fa-solid fa-hand-spock"></i>
+                </button>
+            </div>
+
+            <!-- Result -->
+            <div class="result">
+                <h4 id="result">Start the Game!</h4>
+            </div>
+
+            <!-- Player scores and images area  -->
+            <div class="players-area">
+                <div class="player player-box">
+                    <h5>You: <span id="player-score">0</span></h5>
+                    <img id="player-img" src="assets/images/favicon.webp" alt="player image">
+                </div>
+
+                <div class="computer player-box">
+                    <h5>Computer: <span id="computer-score">0</span></h5>
+                    <img id="computer-img" src="assets/images/favicon.webp" alt="Computer image">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- footer  -->
+        <footer>
+            <p class="footer">Rules: Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, Rock crushes Scissors.</p>
+        </footer>
     </div>
-    <!-- hero text  -->
-    <header class="content">
-        <h3>Rock, Paper, Scissors, Lizard, Spock</h3>
-        <p>Choose your weapon!</p>
-    </header>
-
-    <section class="content main">
-        <!-- Button used in page were taken from Love Maths project with a bit of modification. -->
-        <div class="btns">
-            <button data-weapon="0" aria-label="Rock" class="btn btn--big btn--green">
-                <i class="fa-solid fa-hand-fist"></i>
-            </button>
-            <button data-weapon="1" aria-label="Papre" class="btn btn--big btn--blue">
-                <i class="fa-solid fa-hand"></i>
-            </button>
-            <button data-weapon="2" aria-label="Scessors" class="btn btn--big btn--red">
-                <i class="fa-solid fa-hand-scissors"></i>
-            </button>
-            <button data-weapon="3" aria-label="Lizard" class="btn btn--big btn--orange">
-                <i class="fa-solid fa-hand-lizard"></i>
-            </button>
-            <button data-weapon="4" aria-label="Spock" class="btn btn--big btn--gray">
-                <i class="fa-solid fa-hand-spock"></i>
-            </button>
-        </div>
-
-        <!-- Result -->
-        <div class="result">
-            <h4 id="result">Start the Game!</h4>
-        </div>
-
-        <!-- Players area  -->
-        <div class="players-area">
-            <div class="player player-box">
-                <h5>You: <span id="player-score">0</span></h5>
-                <img id="player-img" src="assets/images/favicon.webp" alt="player image">
-            </div>
-
-            <div class="computer player-box">
-                <h5>Computer: <span id="computer-score">0</span></h5>
-                <img id="computer-img" src="assets/images/favicon.webp" alt="Computer image">
-            </div>
-        </div>
-
-    </section>
-
-    <!-- footer  -->
-    <footer>
-        <p class="footer">Rules: Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, Rock crushes Scissors.</p>
-    </footer>
 
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/8059f0a35d.js" crossorigin="anonymous"></script>
