@@ -172,12 +172,14 @@ header {
     width: 100%;
     height: 100%;
     margin: -4px;
+    background-color: white;
 }
 
 #computer-img {
     width: 100%;
     height: 100%;
     margin: -4px;
+    background-color: white;
 }
 
 #player-score,

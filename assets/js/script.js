@@ -34,7 +34,7 @@ function startGame(playerWeapon) {
 /** This function compare both choices and send the result back to start game function. */
 function compareWeapons(playerWeapon, computerWeapon) {
     if (playerWeapon === computerWeapon) {
-        return "It's a tie!";
+        return "0";
     } else if (
         (playerWeapon === "Scissors" && computerWeapon === "Paper") ||
         (playerWeapon === "Paper" && computerWeapon === "Rock") ||
@@ -47,19 +47,27 @@ function compareWeapons(playerWeapon, computerWeapon) {
         (playerWeapon === "Spock" && computerWeapon === "Rock") ||
         (playerWeapon === "Rock" && computerWeapon === "Scissors")
     ) {
-        return "You win!";
+        return "1";
     } else {
-        return "Computer wins!";
+        return "2";
     }
 }
 
-/** This function updates the score and set the result */
+/** This function updates the score for both players and shows the result */
 function updateScores(result) {
-    if (result === "You win!") {
-        playerScore.textContent = parseInt(playerScore.textContent) + 1;
-    } else if (result === "Computer wins!") {
-        computerScore.textContent = parseInt(computerScore.textContent) + 1;
+    let playerScoreValue = parseInt(playerScore.textContent);
+    let computerScoreValue = parseInt(computerScore.textContent);
+
+    if (result === "0") {
+        resultBox.textContent = "It's a tie!";
+    } else if (result === "1") {
+        playerScoreValue++;
+        resultBox.textContent = "You win!";
+    } else {
+        computerScoreValue++;
+        resultBox.textContent = "Computer wins!";
     }
 
-    resultBox.innerHTML = `${result}`;
+    playerScore.textContent = playerScoreValue;
+    computerScore.textContent = computerScoreValue;
 }

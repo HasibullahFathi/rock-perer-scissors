@@ -93,7 +93,8 @@ live link of Rock, Paper, Scissors, Lizard, Spock page: https://hasibullahfathi.
 ### Content 
 
 - Button used in page were taken from [Love Maths](https://code-institute-org.github.io/love-maths/) project with a bit of modification.
-- Icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
+- Icons used on the website were taken from [Font Awesome](https://fontawesome.com/) and [Flaticon](https://www.flaticon.com/)
+
 
 ### Media
 
